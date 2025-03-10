@@ -1,51 +1,24 @@
 # Blog Management System
 
-A Blog Management System built with PHP, MySQL, and Bootstrap that allows users, admins, and super admins to manage and interact with blog posts and categories.
+This project is a fully functional blog platform where users can create, edit, delete, and manage blog posts. It includes user authentication, database management, and REST API integration.
 
-## Features
+🔹 Key Features:
+✔ User Authentication: Secure login/signup system.
+✔ CRUD Operations: Users can Create, Read, Update, and Delete blog posts.
+✔ Comment & Like System: Visitors can interact with blog posts.
+✔ Category & Tag Management: Organize blogs by topics for easy navigation.
+✔ REST API Integration: APIs to fetch, update, and delete blog content dynamically.
+✔ Responsive UI: Designed with HTML, CSS, and JavaScript for mobile and desktop users.
+✔ Deployment: Hosted on AWS.
 
-### User Roles
 
-- **Normal User**: 
-  - View all published posts.
-  - Search blogs with keywords.
-  
-- **Admin**:
-  - All functionalities available to a Normal User.
-  - Login and logout.
-  - Add, edit, and delete blog posts.
-  
-- **Super Admin**:
-  - All functionalities available to Normal Users and Admins.
-  - Add, edit, and delete blog categories.
-  - Add and delete co-admins and other users.
+🔹Tech Stack:
+📌 Frontend: HTML | CSS | JavaScript
+📌 Backend: PHP | MySQL
+📌 API Development: REST APIs using PHP & MySQL
+📌 Deployment: AWS EC2 / GCP App Engine / Vercel / Netlify
 
-## Functional Requirements
+🔹 Impact:
+🚀 Demonstrates full-stack web development skills, including frontend, backend, API integration, and database management.
+💡 Practical real-world application with live deployment, making it a strong addition to your portfolio.
 
-- **Authentication**: 
-  - User Login, Logout, and Registration.
-  
-- **Post Management**:
-  - Add, edit, view, and delete posts.
-  
-- **Category Management**:
-  - Add, edit, view, and delete categories.
-  
-- **User Management**:
-  - Add and delete other users/admins.
-  
-- **Search Functionality**:
-  - Search posts, users, and categories.
-
-## Technologies Used
-
-- **Backend**: PHP
-- **Database**: MySQL
-- **Frontend**: HTML, CSS, Bootstrap
-- **Client**: Any web browser supporting HTML and JavaScript
-
-## Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/php-blog-management-system.git
